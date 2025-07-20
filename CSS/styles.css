@@ -6,16 +6,21 @@
 body{
     background-color: rgb(73, 36, 104);
 }
-
+img{
+  width: 100%;
+  height: auto;
+}
 div.banner{
   display: flex;
   justify-content: center;
+  scale: 80%;
+  width: 400px;
 }
 
 header{
   display: flex;
   justify-content: center;
-  font-size:125%;
+  font-size:105%;
   font-family: 'Courier New', Courier, monospace;
   font-variant: small-caps;
   background-color: rgb(255, 219, 77);
